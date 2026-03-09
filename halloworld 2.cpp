@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+float Rata_rata(float a, float b){
+    return (a+b)/2;
+}
+
 int main(){
     float nilBI, nilMT;
 
@@ -11,10 +15,11 @@ int main(){
     cin >> nilMT;
 
    // rerata = (nilBI+nilMT)/2;
+
      //if (rerata >= 60)
-    //status = "Lolos";
+        //status = "Lolos";
    // else 
-    //status = "Gagal";
+        //status = "Gagal";
     //rerata = Rata_rata(nilBI,nilMT);
     //status = Status_lulus(rerata);
 
